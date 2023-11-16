@@ -12,14 +12,15 @@ export const Container = styled.aside`
 
   @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
     grid-area: none;
-    display: none;
+    position: absolute;
+    z-index: 1;
   }
 `;
 
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
 `;
 
 export const Title = styled.h1`
@@ -27,7 +28,7 @@ export const Title = styled.h1`
   align-items: center;
   gap: 7px;
   color: ${({ theme }) => theme.COLORS.BLUE_200};
-  font-size: 24px;
+  font-size: 1.5rem;
 `;
 
 export const Nav = styled.nav`
@@ -40,9 +41,9 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     gap: 7px;
-    padding-left: 24px;
+    padding-left: 1.5rem;
     height: 56px;
-    font-size: 16px;
+    font-size: 1rem;
 
     &[data-menu-active="true"] {
       background-color: ${({ theme }) => theme.COLORS.BLUE_200};
@@ -52,7 +53,7 @@ export const Nav = styled.nav`
 `;
 
 export const Footer = styled.footer`
-  padding: 24px;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   gap: 7px;
@@ -70,10 +71,10 @@ export const Footer = styled.footer`
   }
 
   > div strong {
-    font-size: 14px;
+    font-size: .875rem;
   }
   > div small {
-    font-size: 12px;
+    font-size: .75rem;
   }
 `;
 
