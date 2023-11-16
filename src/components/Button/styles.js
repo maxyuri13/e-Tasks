@@ -9,7 +9,7 @@ export const Container = styled.button`
   height: 3.5rem;
   padding: 0 1rem;
   font-weight: 500;
-  border-radius: .4375rem;
+  border-radius: .43rem;
   
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@ export const Container = styled.button`
   }
 
   > svg {
-    font-size: 1.375rem;
+    font-size: 1.37rem;
   }
 
   @media (max-width: ${DEVICE_BREAKPOINTS.XS}) {

@@ -12,7 +12,7 @@ export const Container = styled.button`
     content: '';
     border-bottom: solid 3px ${({ theme }) => theme.COLORS.BLUE_300};  
     transition: all 250ms ease-in-out;
-    padding-bottom: 1rem;
+    padding-bottom: 16px;
     transform: scaleX(0);
   }
 

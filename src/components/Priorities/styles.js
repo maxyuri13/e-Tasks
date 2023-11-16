@@ -26,12 +26,12 @@ export const Header = styled.header`
 export const Tasks = styled.div`
   border: 1px dashed  ${({ theme }) => theme.COLORS.RED_200};
   min-height: 154px;
-  border-radius: .4375rem;
+  border-radius: .43rem;
   margin-top: 16px;
 
   display: flex;
   gap: 1rem;
-  padding: 1.5rem;
+  padding: 24px;
   flex-wrap: wrap;
 
   @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 0 2rem;
+  padding: 0 32px;
 `;
 
 export const Filters = styled.div`

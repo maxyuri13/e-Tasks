@@ -27,7 +27,7 @@ export const Container = styled.aside`
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 2rem 1.5rem;
+  padding: 32px 24px;
 `;
 
 export const Title = styled.h1`
@@ -35,7 +35,7 @@ export const Title = styled.h1`
   align-items: center;
   gap: 7px;
   color: ${({ theme }) => theme.COLORS.BLUE_200};
-  font-size: 1.5rem;
+  font-size: 24px;
 `;
 
 export const Nav = styled.nav`
@@ -48,9 +48,9 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     gap: 7px;
-    padding-left: 1.5rem;
+    padding-left: 24px;
     height: 56px;
-    font-size: 1rem;
+    font-size: 16px;
 
     &[data-menu-active="true"] {
       background-color: ${({ theme }) => theme.COLORS.BLUE_200};
@@ -60,7 +60,7 @@ export const Nav = styled.nav`
 `;
 
 export const Footer = styled.footer`
-  padding: 1.5rem;
+  padding: 24px;
   display: flex;
   align-items: center;
   gap: 7px;
@@ -78,10 +78,10 @@ export const Footer = styled.footer`
   }
 
   > div strong {
-    font-size: .875rem;
+    font-size: 14px;
   }
   > div small {
-    font-size: .75rem;
+    font-size: 12px;
   }
 `;
 

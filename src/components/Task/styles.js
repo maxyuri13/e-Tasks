@@ -5,7 +5,7 @@ export const Container = styled.a`
   color: ${({ theme }) => theme.COLORS.GRAY_100};
 
   padding: 1.5rem 1rem;
-  border-radius: .4375rem;
+  border-radius: .43rem;
 
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@ export const Details = styled.div`
   flex-direction: column;
 
   > span {
-    font-size: .875rem;
+    font-size: .87rem;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
 
   }
